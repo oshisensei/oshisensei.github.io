@@ -4,33 +4,32 @@ body { /* no . means element type */
 }
 
 /*modify the elements of the page*/
+.User .avatar-and-ratings-row {
+    justify-content: flex-start !important;
+}
       
-.avatar-container .Player-username {
+/* .avatar-container .Player-username {
      font-size: 2em;
      font-family: "papyrus", fantasy;
      color:rgba(104, 118, 243, 0.685);
-    }
+    } */
 
-.ratings-container{
+/* .ratings-container{
 	background-color:#282828;
 	border: solid;
 	border-color: #606060;
 	border-width: 0.5px;
-}
+} */
 
 .container {
     max-width: none !important;
-   background-image: url('https://i.imgur.com/5aehvPb.jpg');
+   background-image: url('https://oshisensei.github.io/background.jpg');
 }
  
 /*HIDE PARTS*/
 .ratings-row {
 	display: none !important;
-}
-
-.col-sm-4{
-	display: none !important;
-}
+} 
 
 /*library results*/
 
@@ -44,14 +43,7 @@ body { /* no . means element type */
 .library-lost-result-unranked {  color: RGBA( 255, 182, 193, 1 ) !important;}
 .library-won-result-unranked { color: RGBA( 32, 178, 170, 1 ) !important;}
 
-/*pie chart
-
-.strong-wins
-.strong-losses {   fill:rgba(104, 118, 243, 0.685) !important;}
-.weak-wins
-.weak-losses*/
-
-/*fonts and solors*/
+/*fonts and colors*/
  
 h2 {
 	font-family: "papyrus", fantasy;
@@ -68,46 +60,19 @@ h4{
    font-family: "papyrus", fantasy;
 }
 
-.camille {
-     /*font-family: "Book Antiqua", serif;
-     color:RGBA( 0, 128, 128, 1 );*/
-	RGBA( 0, 206, 209, 1 )
-	font-family: "papyrus", fantasy;
-	position: static;
-	left:0;
-}
-
 p {
-  color: rgba(0, 140, 255, 0.76);
-   font-family: "Lucida Handwriting", cursive; 
+  color: rgb(255 0 68 / 76%);
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 26px;
 }
 
-/*IMAGES AND SHAPING*/	
 
-span.test{
-  display: inline-block;
-  padding: 0 10% ;
-  color: rgba(0, 140, 255, 0.76);
-}
 
-.image {
-width: 20%;
-border-radius: 20px;
-margin-left: auto;
-margin-right: auto;
-}
-
-.images {
- width: 7%;
-margin-left: auto;
-margin-right: auto;
-border-radius: 40px;
-}
 
 /*ANIMATION*/
 
 .about-container h1 {
-    color:rgba(247, 163, 38, 0.89);
+    color:rgba(232, 190, 172, 0.89);
 	/*color:RGBA( 0, 206, 209, 1 );*/
    font-family: "Lucida Handwriting", cursive; 
     font-size: 3em;
